@@ -1,5 +1,5 @@
 public class UserService {
-    public User getUserById(String id) {
+    public User getuserById(String id) {
         return database.fetch(id);
     }
 }
